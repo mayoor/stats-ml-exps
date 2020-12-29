@@ -4,22 +4,36 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - appdirs=1.4.4=pyh9f0ad1d_0
   - appnope=0.1.0=py38_1001
   - argon2-cffi=20.1.0=py38haf1e3a3_1
   - attrs=20.1.0=py_0
   - backcall=0.2.0=py_0
   - blas=1.0=mkl
   - bleach=3.1.5=py_0
+  - blosc=1.21.0=h046ec9c_0
+  - brotli=1.0.9=hb1e8313_3
   - brotlipy=0.7.0=py38haf1e3a3_1000
-  - ca-certificates=2020.6.20=hecda079_0
-  - certifi=2020.6.20=py38h32f6830_0
+  - brunsli=0.1=h046ec9c_0
+  - bzip2=1.0.8=hc929b4f_4
+  - ca-certificates=2020.12.5=h033912b_0
+  - certifi=2020.12.5=py38h50d1736_0
   - cffi=1.14.2=py38hed5b41f_0
   - chardet=3.0.4=py38_1003
+  - charls=2.1.0=h046ec9c_2
+  - cloudpickle=1.6.0=py_0
   - cryptography=3.1=py38hddc9c9b_0
+  - cycler=0.10.0=py_2
+  - cytoolz=0.11.0=py38h1130bcf_1
+  - dask-core=2020.12.0=pyhd8ed1ab_0
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py38_0
+  - freetype=2.10.4=h3f75d11_0
+  - giflib=5.2.1=hbcb3906_2
   - idna=2.10=py_0
+  - imagecodecs=2020.5.30=py38h1f5c5b7_4
+  - imageio=2.9.0=py_0
   - importlib-metadata=1.7.0=py38_0
   - importlib_metadata=1.7.0=0
   - intel-openmp=2019.4=233
@@ -29,17 +43,33 @@ dependencies:
   - ipywidgets=7.5.1=pyh9f0ad1d_1
   - jedi=0.17.2=py38_0
   - jinja2=2.11.2=py_0
+  - jpeg=9d=hbcb3906_0
   - json5=0.9.5=py_0
   - jsonschema=3.2.0=py38_1
   - jupyter_client=6.1.6=py_0
   - jupyter_core=4.6.3=py38_0
   - jupyterlab=2.2.6=py_0
   - jupyterlab_server=1.2.0=py_0
-  - libcxx=10.0.0=1
+  - jxrlib=1.1=h35c211d_2
+  - kiwisolver=1.3.1=py38h9250c2b_0
+  - lcms2=2.11=h11f7e16_1
+  - lerc=2.2=h046ec9c_0
+  - libaec=1.0.4=h046ec9c_1
+  - libcxx=11.0.0=h4c3b8ed_1
   - libedit=3.1.20191231=h1de35cc_1
   - libffi=3.3=hb1e8313_2
+  - libgfortran=3.0.1=0
+  - libllvm10=10.0.1=h009f743_3
+  - libpng=1.6.37=h7cec526_2
   - libsodium=1.0.18=h1de35cc_0
+  - libtiff=4.2.0=h355d032_0
+  - libwebp-base=1.1.0=hbcb3906_3
+  - libzopfli=1.0.3=h046ec9c_0
+  - llvm-openmp=11.0.0=h73239a0_1
+  - llvmlite=0.35.0=py38hc583f44_0
+  - lz4-c=1.9.2=hb1e8313_3
   - markupsafe=1.1.1=py38h1de35cc_1
+  - matplotlib-base=3.3.3=py38h9bfd75d_0
   - mistune=0.8.4=py38h1de35cc_1001
   - mkl=2019.4=233
   - mkl-service=2.3.0=py38hfbe908c_0
@@ -48,17 +78,23 @@ dependencies:
   - nbconvert=5.6.1=py38_1
   - nbformat=5.0.7=py_0
   - ncurses=6.2=h0a44026_1
+  - networkx=2.5=py_0
   - ninja=1.10.1=py38h879752b_0
   - notebook=6.1.1=py38_0
+  - numba=0.52.0=py38he9f00de_0
   - numpy-base=1.19.1=py38hcfb5961_0
-  - openssl=1.1.1g=haf1e3a3_1
+  - olefile=0.46=pyh9f0ad1d_1
+  - openjpeg=2.3.1=h6cbf5cd_3
+  - openssl=1.1.1i=h35c211d_0
   - packaging=20.4=py_0
   - pandoc=2.10.1=0
   - pandocfilters=1.4.2=py38_1
   - parso=0.7.0=py_0
   - pexpect=4.8.0=py38_1
   - pickleshare=0.7.5=py38_1001
+  - pillow=8.0.1=py38h565d989_0
   - pip=20.2.2=py38_0
+  - pooch=1.3.0=pyhd8ed1ab_0
   - prometheus_client=0.8.0=py_0
   - prompt-toolkit=3.0.7=py_0
   - ptyprocess=0.6.0=py38_0
@@ -72,16 +108,25 @@ dependencies:
   - python-dateutil=2.8.1=py_0
   - python_abi=3.8=1_cp38
   - pytorch=1.6.0=py3.8_0
+  - pywavelets=1.1.1=py38hc7193ba_3
+  - pyyaml=5.3.1=py38h94c058a_1
   - pyzmq=19.0.1=py38hb1e8313_1
   - readline=8.0=h1de35cc_0
   - requests=2.24.0=py_0
+  - scikit-image=0.18.1=py38he9f00de_0
   - send2trash=1.5.0=py38_0
   - setuptools=49.6.0=py38_0
+  - shap=0.37.0=py38h6668005_0
   - six=1.15.0=py_0
+  - slicer=0.0.7=pyhd8ed1ab_0
+  - snappy=1.1.8=hb1e8313_3
   - sqlite=3.33.0=hffcf06c_0
   - terminado=0.8.3=py38_0
   - testpath=0.4.4=py_0
+  - threadpoolctl=2.1.0=pyh5ca1d4c_0
+  - tifffile=2020.12.8=pyhd8ed1ab_0
   - tk=8.6.10=hb0a8c7a_0
+  - toolz=0.11.1=py_0
   - tornado=6.0.4=py38h1de35cc_1
   - traitlets=4.3.3=py38_0
   - urllib3=1.25.10=py_0
@@ -90,19 +135,49 @@ dependencies:
   - wheel=0.35.1=py_0
   - widgetsnbextension=3.5.1=py38h32f6830_1
   - xz=5.2.5=h1de35cc_0
+  - yaml=0.2.5=haf1e3a3_0
   - zeromq=4.3.2=hb1e8313_3
+  - zfp=0.5.5=h046ec9c_4
   - zipp=3.1.0=py_0
   - zlib=1.2.11=h1de35cc_3
+  - zstd=1.4.5=h289c70a_2
   - pip:
+    - alembic==1.4.3
     - click==7.1.2
+    - cliff==3.5.0
+    - cmaes==0.7.0
+    - cmd2==1.4.0
+    - colorama==0.4.4
+    - colorlog==4.6.2
+    - datasets==1.0.1
+    - dill==0.3.2
+    - eli5==0.10.1
     - filelock==3.0.12
     - joblib==0.16.0
+    - mako==1.1.3
+    - nltk==3.5
     - numpy==1.19.2
+    - optuna==2.3.0
+    - pandas==1.1.2
+    - pbr==5.5.1
+    - prettytable==0.7.2
+    - pyarrow==1.0.1
+    - pyperclip==1.8.1
+    - python-editor==1.0.4
+    - python-graphviz==0.16
+    - pytz==2020.1
     - regex==2020.7.14
     - sacremoses==0.0.43
+    - scikit-learn==0.24.0
+    - scipy==1.5.4
     - sentencepiece==0.1.91
+    - sqlalchemy==1.3.22
+    - stevedore==3.3.0
+    - tabulate==0.8.7
     - tokenizers==0.8.1rc2
     - tqdm==4.49.0
     - transformers==3.1.0
+    - xgboost==1.3.1
+    - xxhash==2.0.0
 prefix: /Users/mayorao/opt/miniconda3/envs/bertnlp
 
